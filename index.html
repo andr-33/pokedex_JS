@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/mainPage.css" rel="stylesheet">
+    <title>Your PokeAPI</title>
+</head>
+
+<header>
+    <h1 class="main-title">Pok<span class="spacing">e</span>A<span class="spacing">PI</span></h1>
+</header>
+
+<body>
+    <div class="row container-buttons">
+        <button onclick="getPrevPokemons()"> < prev</button>
+        <button onclick="getNextPokemons()">next ></button>
+    </div>
+
+    <div id="card-container" class="container-card"></div>
+    
+    <div class="row container-buttons">
+        <button onclick="getPrevPokemons()"> < prev</button>
+        <button onclick="getNextPokemons()">next ></button>
+    </div>
+</body>
+
+<script src="./controllers/pokemon_controller.js"></script>
+</html>
